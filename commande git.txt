@@ -1,0 +1,46 @@
+cd nom_projet
+git init: initialisé le projet
+ls -a: affiche le dossier .git caché. 
+  Pour afficher ce dossier, ouvrir le dossier du projet , sélection l'aption affichage et cocher la cage élément masquer.
+Créer in fichier txt et l'afficher avec ls
+git status: pour vérifier que le fichier est suivi ou pas 
+git add nom_fichier : pour ajouter le fichier à la zone de préparation 
+git status: pour vérifier que cette fois le fichier est suivi
+git add --all : pour mettre en scène plusieurs fichiers
+git commit -m: enregistrer les modifications par étapes avec un message 
+
+Qu'est-ce qu'une étiquette ?
+Dans Git, une étiquette (tag) est comme un label ou un signet pour un commit spécifique.
+
+Les tags sont le plus souvent utilisés pour marquer les points importants de l'historique de votre projet, comme les versions ( v1.0ou v2.0).
+
+Les étiquettes constituent un moyen simple et fiable de suivre les versions et de les partager avec votre équipe ou vos utilisateurs.
+
+Voici quelques types de balises courants :
+
+Versions : Les étiquettes vous permettent de signaler quand votre projet est prêt à être publié, afin que vous (et les autres) puissiez toujours retrouver cette version exacte ultérieurement.
+Étapes clés : Utilisez des étiquettes pour mettre en évidence les étapes importantes, comme la finalisation d’une fonctionnalité majeure ou la correction d’un bug.
+Déploiement : De nombreux outils de déploiement utilisent des balises pour savoir quelle version de votre code déployer.
+Correctifs : Si vous devez corriger une ancienne version, les étiquettes facilitent la recherche et l'application du correctif au code approprié.
+
+Une étiquette légère est simplement un nom donné à un commit
+
+Étiquettes annotées vs étiquettes légères
+Étiquette annotée : Contient l’auteur, la date et un message.
+Recommandée pour les publications et le partage.
+Étiquette légère : un simple nom pour un commit (sans information supplémentaire, comme un signet).
+
+Une étiquette annotée stocke votre nom, la date et un message.
+
+Rôle de git log --oneline
+
+Cette commande permet d’afficher l’historique des commits de ton projet
+sous une forme courte et lisible sur une seule ligne par commit.
+
+git show: Voir les détails sur une balise et le commit vers lequel elle pointe
+
+git tag:Afficher toutes les étiquettes de votre dépôt
+git push origin:  pousser une seule balise
+git stash: Cette commande enregistre vos modifications et nettoie votre répertoire de travail afin que vous puissiez changer de tâche ou de branche en toute sécurité.
+
+Vos modifications sont maintenant enregistrées dans une pile.
