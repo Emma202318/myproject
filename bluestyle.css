@@ -1,0 +1,39 @@
+/* Style général de la page */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e6f0ff; /* bleu très clair */
+  color: #003366; /* bleu foncé pour le texte */
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* Titre principal */
+h1 {
+  color: #0044cc;
+  margin-top: 40px;
+  font-size: 2.5em;
+}
+
+/* Image */
+img {
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  margin: 20px 0;
+}
+
+/* Paragraphes */
+p {
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
+/* Lien éventuel */
+a {
+  color: #0044cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
